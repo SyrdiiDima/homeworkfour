@@ -539,9 +539,11 @@ a {
 
 .soc-a:hover {
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 .soc-a:hover .social-links {
   fill: var(--white-color);
+  cursor: pointer;
 }
 .clients {
   padding-top: 94px;
@@ -577,10 +579,12 @@ a {
 .li-client :hover,
 .li-client:focus {
   border-color: var(--accent-color);
+  cursor: pointer;
 }
 .clients-icon:hover .icon-svg,
 .clients-icon:focus .icon-svg {
   fill: var(--accent-color);
+  cursor: pointer;
 }
 
 .footer-social {
